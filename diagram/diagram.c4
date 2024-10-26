@@ -1,0 +1,43 @@
+specification {
+    element person
+    element app
+    element component
+    element database
+    element api
+}
+
+model {
+    user = person 'user'
+    db = database 'database in db.json file'
+    jsonServer = api 'JSON Server'
+    passengersApp = app 'Passengers App'
+    passengersTable = component 'Passengers Table'
+    passengersForm = component 'Passengers Form'
+    passengersPage = component 'Passengers Page'
+    passengersNotifications = component 'Passengers Notifications'
+    usePassengers = component 'UsePassengers service (custom React hook)'
+
+    user -> passengersApp "uses"
+
+    passengersApp -> passengersPage 'renders'
+
+    passengersPage -> passengersTable 'renders and displays data in table'
+    passengersPage -> passengersForm 'renders via modal when edit/add button is clicked'
+    passengersPage -> passengersNotifications 'renders with some static alerts and computed values'
+
+    passengersPage -> usePassengers 'calls API methods and receives state'
+
+    usePassengers -> jsonServer 'calls API'
+    jsonServer -> db 'reads and writes data'
+
+
+
+
+
+}
+
+views {
+    view {
+        include *
+    }
+}

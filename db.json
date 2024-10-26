@@ -1,0 +1,88 @@
+{
+  "passengers": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "checkedIn": true,
+      "checkInDate": "2023-10-01",
+      "baggage": "hand-only"
+    },
+    {
+      "id": "4",
+      "name": "Bob Brown",
+      "checkedIn": false,
+      "checkInDate": "",
+      "baggage": "none"
+    },
+    {
+      "id": "5",
+      "name": "Charlie Davis",
+      "checkedIn": true,
+      "checkInDate": "2023-10-03",
+      "baggage": "hand-only"
+    },
+    {
+      "id": "6",
+      "name": "Diana Evans",
+      "checkedIn": false,
+      "checkInDate": "",
+      "baggage": "hold-only"
+    },
+    {
+      "id": "7",
+      "name": "Eve Fosteroe",
+      "checkedIn": true,
+      "checkInDate": "2023-10-04",
+      "baggage": "hand-hold"
+    },
+    {
+      "id": "8",
+      "name": "Frank Green",
+      "checkedIn": false,
+      "checkInDate": "",
+      "baggage": "none"
+    },
+    {
+      "id": "9",
+      "name": "Grace Harris",
+      "checkedIn": false,
+      "checkInDate": "2023-10-05",
+      "baggage": "hand-only"
+    },
+    {
+      "id": "10",
+      "name": "Henry Irving",
+      "checkedIn": false,
+      "checkInDate": "",
+      "baggage": "hold-only"
+    },
+    {
+      "id": "11",
+      "name": "Ivy Jackson",
+      "checkedIn": true,
+      "checkInDate": "2023-10-06",
+      "baggage": "hand-hold"
+    },
+    {
+      "id": "12",
+      "name": "Jack King",
+      "checkedIn": false,
+      "checkInDate": "",
+      "baggage": "none"
+    },
+    {
+      "id": "13",
+      "name": "Karen Lewis",
+      "checkedIn": true,
+      "checkInDate": "2023-10-07",
+      "baggage": "hand-only"
+    },
+    {
+      "id": "14",
+      "name": "Leo Martin",
+      "checkedIn": false,
+      "checkInDate": "",
+      "baggage": "hold-only"
+    }
+  ]
+}
