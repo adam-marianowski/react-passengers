@@ -1,9 +1,17 @@
 # React passengers
 
+![banner](./docs/banner/react%20passengers%20app.png)
+
 - Simple app for managing a list of passengers.
 - Built with React (CRA) and TypeScript.
 - API implemented using JSON-server.
 - Styled with Bootstrap and Bootstrap Icons.
+
+## Screenshots
+
+![screenshot](./docs/screenshots/screen1.png)
+
+![screenshot](./docs/screenshots/screen2.png)
 
 ## Design
 
@@ -18,7 +26,7 @@ This app is designed to be minimalistic, making it ideal for testing various Rea
 
 ## Architecture
 
-![diagram](./diagram/diagram.png)
+![diagram](./docs/diagram/diagram.png)
 
 - `usePassengers` is built for dealing with data-related state and makes API calls. It returns all functions which are essential for the app. It also provides `passengers` `state` and exposes `selectedPassenger` when one is ordered to be fetched.
 - on initialization `usePassengers` will fetch all Passengers from the API:
