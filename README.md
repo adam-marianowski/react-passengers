@@ -134,3 +134,5 @@ Once the application is running, you can:
 - Add a new passenger.
 - Edit an existing passenger's details.
 - Delete a passenger from the list.
+
+![banner](./docs/banner/footer_banner.png)
