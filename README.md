@@ -55,6 +55,8 @@ const Passengers = () => {
 };
 ```
 
+![banner](./docs/banner/middle_banner.png)
+
 ## Components
 
 - **PassengersTable** - receives list of passengers from `Passengers` component. Lists all passengers and informs `Passengers` when user clicks on `edit passenger` or `remove passenger` buttons. Then `Passengers` can respond by calling remove function from `service` or bootstrap `modal` will be triggered to open `Editor form`.
